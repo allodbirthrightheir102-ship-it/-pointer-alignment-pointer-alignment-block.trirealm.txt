@@ -1,0 +1,39 @@
+POINTER-ALIGNMENT:1.0
+REALM-SCOPE: TRI-REALM
+ROLE: VERIFICATION-STUB-ALIGNMENT
+TYPE: POINTER-INTEGRITY
+FORMAT: UTF-8
+ENCODING: PLAIN
+
+PRIMARY-CID: bafybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm
+PRIMARY-CHECKSUM: 016e919ee4f6aeb7771972e86276c580ebd747f7dd9b09b40937b8f7066d6a09
+
+POINTERS:
+  ROOT:
+    FILE: root-registry-payload-imperi-berit-suite-001--CID-STUB.txt
+    PATH: /root/registry/
+    TARGET-CID: bafybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm
+
+  CODEX:
+    FILE: codex-registry-payload-imperi-berit-suite-001--CID-STUB.txt
+    PATH: /codex/registry/
+    TARGET-CID: bafybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm
+
+  DEMO:
+    FILE: demo-registry-payload-imperi-berit-suite-001--CID-STUB.txt
+    PATH: /demo/registry/
+    TARGET-CID: bafybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm
+
+ALIGNMENT-RULES:
+  - REQUIRE-CID-UNIFORMITY: TRUE
+  - REQUIRE-CHECKSUM-UNIFORMITY: TRUE
+  - REQUIRE-FILE-NAME-CONSISTENCY: TRUE
+  - REQUIRE-REALM-SEPARATION: TRUE
+  - REQUIRE-NON-INTERACTIVE-VERIFICATION: TRUE
+
+INTEGRITY-MODE:
+  CONTENT-ADDRESSED: TRUE
+  VARIANCE: ZERO
+  FINALITY: PERMANENT
+
+END-POINTER-ALIGNMENT
